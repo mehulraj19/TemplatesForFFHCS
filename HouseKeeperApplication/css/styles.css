@@ -1,0 +1,85 @@
+/* $desktop: 1200px;
+$laptop:1024px;
+$tablet: 768px;
+$phone: 480px; */
+
+body{
+  background-image: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+    background-color: #fff;
+}
+svg{
+  position: relative;
+  margin-top: -8%;
+}
+footer p{
+  font-size: 135%;
+  letter-spacing: 1.8;
+  line-height: 1.5;
+}
+footer{
+  background-color: #222831;
+  color: teal;
+  text-align: center;
+  line-height: 1.2;
+  padding: 7% 5% 1%;
+}
+
+#mainArea{
+  color: white;
+}
+#mainArea::before{
+  border-radius: 0 0 50% 50%;
+}
+.mainTag{
+  color: white;
+  text-decoration: none;
+}
+.mainTag:hover{
+  color: 	#E0E0E0;
+}
+#formArea{
+  background-color: white;
+}
+.design{
+  margin: 4%;
+}
+.boxContainer{
+  background-color: white;
+  box-shadow: 2px 2px 8px 5px #888888;
+  z-index: 2;
+  border-radius: 2%;
+  padding: 1.15%;
+  width: 750px;
+  height: 405px;
+}
+.boxContainer{
+  z-index: 1;
+}
+.connect{
+  margin-left: 1%;
+  margin-right: 1%;
+  color: teal;
+}
+.connect :hover{
+  color: #004d7a;
+}
+
+@media (max-width: 786px) {
+  .endBox{
+    margin-bottom: -20%;
+  }
+  .endBox p{
+    font-size: 17.8px;
+  }
+  .boxContainer{
+    width: 400px;
+    height: 370px;
+  }
+}

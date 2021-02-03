@@ -1,0 +1,33 @@
+.boxContainer{
+    background-color: white;
+    box-shadow: 2px 2px 8px 5px #888888;
+    z-index: 2;
+    border-radius: 2%;
+    padding: 1.15%;
+    width: 500px;
+    height: 300px;
+  }
+  .btnSize{
+    width: 75%;
+    border-radius: 42px;
+}
+  ::placeholder{
+      text-align: center;
+  }
+  @media (max-width: 786px) {
+    .endBox{
+      margin-bottom: -20%;
+    }
+    .endBox p{
+        font-size: 17.8px;
+    }
+    .boxContainer{
+      width: 390px;
+      height: 280px;
+    }
+    /* footer p{
+        font-size: 50%;
+        letter-spacing: 1.8;
+        line-height: 1.5;
+    } */
+  }
